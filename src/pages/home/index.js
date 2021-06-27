@@ -6,8 +6,12 @@ import './home.styl'
         render() {
             return (
                 <div className="P-home">
-+                   <Header />
+                    <Header />
                     <h1>Home page</h1>
+                    <p>This is the home page of this application.</p>
+                    <p>Yes, this is the home page of this application.</p>
+                    <p>Indeed, this is the home page of this application.</p>
+                    <p>I'm not kidding. This is the home page of this application.</p>
                 </div>
             )
         }

@@ -8,7 +8,9 @@ import './login.styl'
                <div className="P-login">
                     <Header />
                     <h1>Login page</h1>
-+                   <button onClick={this.gotoHome.bind(this)}>Goto Home Page</button>
+                    <p>This is the login page of this application.</p>
+                    <p>If you click the button, you will return the home page.</p>
+                    <button onClick={this.gotoHome.bind(this)}>Goto Home Page</button>
                 </div>
             )
             }
